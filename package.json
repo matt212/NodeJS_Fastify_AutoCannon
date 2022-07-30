@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_postgres_seamless_jquery_git",
+  "version": "1.0.0",
+  "description": "![search.gif](https://bitbucket.org/repo/7yb57z/images/3218852495-search.gif)",
+
+  "dependencies": {
+    "async": "^3.2.0",
+    "autocannon": "^7.9.0",
+    "bluebird": "^3.7.2",    
+    "fastify": "^3.29.1",
+    "fastify-cors": "^5.2.0",
+    "path": "^0.12.7"
+      },
+  
+  "scripts": {
+    "app-dev": "cd ./app/utils && node --no-warnings app.js 'dev' ",
+    "customAutocannon": "node  ./app/config/autocannon.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://matt_baker@bitbucket.org/matt_baker/nodejs_postgres_jquery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/matt_baker/nodejs_postgres_jquery#readme"
+}
